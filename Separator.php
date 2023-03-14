@@ -3,7 +3,11 @@
 
 class Separator
 {
-    public function separate($address){
+    /**
+     * @param $address
+     * @return string
+     */
+    public function separate($address):string{
 
         $aMatch         = array();
         $pattern        = '#([a-zA-ZäöüÄÖÜß+(-{1})?(.)]+\s)+#';
