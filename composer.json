@@ -1,0 +1,16 @@
+{
+    "name": "selected/task3",
+    "description": "separate street name",
+    "autoload": {
+        "psr-4": {
+            "Selected\\Task3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mehran",
+            "email": "mehran.naseri2013@gmail.com"
+        }
+    ],
+    "require": {}
+}
