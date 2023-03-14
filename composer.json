@@ -1,9 +1,12 @@
 {
     "name": "selected/task3",
     "description": "separate street name",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
     "autoload": {
         "psr-4": {
-            "Selected\\Task3\\": "src/"
+            "Selected\\Task3\\": "/"
         }
     },
     "authors": [
